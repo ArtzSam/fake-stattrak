@@ -49,7 +49,7 @@ module.exports = class Helper {
 			// Yes I know the ones I download here are technically not the same as the ones in the submodule
 			// but that doesn't really matter, I doubt Valve will do any major changes with the protobufs I use here anyways
 			request({
-				uri: "https://github.com/SteamDatabase/Protobufs/archive/master.zip",
+				uri: "https://github.com/SteamTracking/Protobufs/archive/master.zip",
 				encoding: null
 			}, async (err, res, body) => {
 				if (err) {
